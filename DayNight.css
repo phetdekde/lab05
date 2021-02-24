@@ -1,0 +1,32 @@
+.day {
+    color: black;
+    background-color: white;
+}
+.night {
+    color: white;
+    background-color: black;
+}
+.day #a1:after {
+    content: "MORNING";
+}
+.night #a1:after {
+    content: "NIGHT";
+}
+.day #a2:after {
+    content: "day";
+}
+.night #a2:after {
+    content: "night";
+}
+.day #a3 {
+    color: red;
+}
+.night #a3 {
+    color: blue;
+}
+.day #a4:after {
+    content: "night";
+}
+.night #a4:after {
+    content: "day";
+}
